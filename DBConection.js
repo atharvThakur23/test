@@ -38,7 +38,7 @@ const firebaseConfig = {
   const saveData = (uname, passwd) => {
     var newinfoForm = db.push();
 
-    newinfoForm.set(uname{
+    newinfoForm.set({
         uname : uname,
         passwd : passwd
 
